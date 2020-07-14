@@ -1,0 +1,1 @@
+python train.py --dataset dataset --model fashion.model --labelbin mlb.pickle

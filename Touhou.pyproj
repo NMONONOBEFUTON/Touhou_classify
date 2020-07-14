@@ -1,0 +1,142 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c5dd1c0f-eb6c-47ba-98dd-49333e279dca</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>train.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>C:\Users\qwxas\Desktop\Touhou\Touhou</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Touhou</Name>
+    <RootNamespace>Touhou</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+    <TestFramework>none</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="pyimagesearch\_init_.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pyimagesearch\smallervggnet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classify.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="train.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="卷积神经网络-手写数字识别.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dataset\" />
+    <Folder Include="dataset\koishi\" />
+    <Folder Include="dataset\remilia\" />
+    <Folder Include="examples\" />
+    <Folder Include="pyimagesearch\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dataset\koishi\80796153_p0.png" />
+    <Content Include="dataset\koishi\80905453_p0.jpg" />
+    <Content Include="dataset\koishi\80917191_p0.png" />
+    <Content Include="dataset\koishi\81004602_p0.png" />
+    <Content Include="dataset\koishi\81232505_p0.png" />
+    <Content Include="dataset\koishi\81542324_p0.jpg" />
+    <Content Include="dataset\koishi\81543639_p0.png" />
+    <Content Include="dataset\koishi\81544467_p0.jpg" />
+    <Content Include="dataset\koishi\81544686_p0.jpg" />
+    <Content Include="dataset\koishi\81544869_p0.jpg" />
+    <Content Include="dataset\koishi\81547332_p0.png" />
+    <Content Include="dataset\koishi\81551603_p0.png" />
+    <Content Include="dataset\koishi\81554319_p0.jpg" />
+    <Content Include="dataset\koishi\81558284_p0.png" />
+    <Content Include="dataset\koishi\81564272_p0.png" />
+    <Content Include="dataset\koishi\81566225_p0.png" />
+    <Content Include="dataset\koishi\81566804_p0.png" />
+    <Content Include="dataset\koishi\81571038_p0.jpg" />
+    <Content Include="dataset\koishi\81588585_p0.jpg" />
+    <Content Include="dataset\koishi\81590972_p0.jpg" />
+    <Content Include="dataset\koishi\81700164_p0.jpg" />
+    <Content Include="dataset\koishi\81790451_p0.png" />
+    <Content Include="dataset\koishi\81847561_p0.png" />
+    <Content Include="dataset\koishi\81893999_p0.png" />
+    <Content Include="dataset\koishi\81894304_p0.png" />
+    <Content Include="dataset\koishi\81974397_p0.jpg" />
+    <Content Include="dataset\koishi\82255202_p0.png" />
+    <Content Include="dataset\koishi\82304202_p0.jpg" />
+    <Content Include="dataset\koishi\82344840_p0.jpg" />
+    <Content Include="dataset\koishi\82379844_p0.jpg" />
+    <Content Include="dataset\koishi\82402979_p0.jpg" />
+    <Content Include="dataset\koishi\82455494_p0.jpg" />
+    <Content Include="dataset\koishi\82581945_p0.jpg" />
+    <Content Include="dataset\koishi\82693450_p0.jpg" />
+    <Content Include="dataset\remilia\80654201_p0.jpg" />
+    <Content Include="dataset\remilia\80668818_p0.jpg" />
+    <Content Include="dataset\remilia\80691032_p0.png" />
+    <Content Include="dataset\remilia\80762688_p0.png" />
+    <Content Include="dataset\remilia\80858754_p0.png" />
+    <Content Include="dataset\remilia\80858754_p1.png" />
+    <Content Include="dataset\remilia\80862755_p0.jpg" />
+    <Content Include="dataset\remilia\80868895_p0.png" />
+    <Content Include="dataset\remilia\80980296_p0.jpg" />
+    <Content Include="dataset\remilia\80996818_p0.jpg" />
+    <Content Include="dataset\remilia\80996818_p1.jpg" />
+    <Content Include="dataset\remilia\80996818_p2.jpg" />
+    <Content Include="dataset\remilia\81064599_p0.jpg" />
+    <Content Include="dataset\remilia\81104255_p0.jpg" />
+    <Content Include="dataset\remilia\81111144_p0.jpg" />
+    <Content Include="dataset\remilia\81203550_p0.jpg" />
+    <Content Include="dataset\remilia\81230859_p0.jpg" />
+    <Content Include="dataset\remilia\81230859_p1.jpg" />
+    <Content Include="dataset\remilia\81233943_p0.jpg" />
+    <Content Include="dataset\remilia\81260661_p0.png" />
+    <Content Include="dataset\remilia\81260661_p1.png" />
+    <Content Include="dataset\remilia\81316619_p0.jpg" />
+    <Content Include="dataset\remilia\81405473_p0.jpg" />
+    <Content Include="dataset\remilia\81489235_p0.png" />
+    <Content Include="dataset\remilia\81628167_p0.png" />
+    <Content Include="dataset\remilia\81634882_p0.png" />
+    <Content Include="dataset\remilia\81848714_p0.jpg" />
+    <Content Include="dataset\remilia\81963654_p0.jpg" />
+    <Content Include="dataset\remilia\81974120_p0.png" />
+    <Content Include="dataset\remilia\81974120_p1.png" />
+    <Content Include="dataset\remilia\81975800_p0.png" />
+    <Content Include="dataset\remilia\81997122_p0.jpg" />
+    <Content Include="dataset\remilia\82194298_p0.jpg" />
+    <Content Include="dataset\remilia\82205777_p0.jpg" />
+    <Content Include="dataset\remilia\82205777_p1.jpg" />
+    <Content Include="dataset\remilia\82218971_p0.png" />
+    <Content Include="dataset\remilia\82218971_p1.png" />
+    <Content Include="dataset\remilia\82307996_p0.png" />
+    <Content Include="dataset\remilia\82621565_p0.png" />
+    <Content Include="dataset\remilia\82713187_p0.jpg" />
+    <Content Include="dataset\remilia\82747790_p0.jpg" />
+    <Content Include="dataset\remilia\82782916_p0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
